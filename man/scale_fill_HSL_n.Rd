@@ -14,7 +14,7 @@ scale_color_HSL_n(palette = "main", direction = 1, ...)
 
 \item{direction}{1 = originele volgorde, -1 = omgekeerd.}
 
-\item{...}{Doorgegeven aan \code{\link[ggplot2:scale_manual]{ggplot2::scale_fill_manual}}.}
+\item{...}{Doorgegeven aan \code{\link[ggplot2:scale_manual]{ggplot2::scale_colour_manual}}.}
 }
 \value{
 Een ggplot2 fill-scale.

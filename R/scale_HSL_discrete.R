@@ -22,14 +22,16 @@ scale_fill_HSL <- function(palette = "main", direction = 1, ...) {
 
 #' Discrete colour-scale in HSL-huisstijl
 #'
-#' @inheritParams scale_fill_HSL
+#' @param palette Naam van het palet (zie \code{\link{HSLpalette}}).
+#' @param direction 1 = originele volgorde, -1 = omgekeerd.
+#' @param ... Doorgegeven aan \code{\link[ggplot2:scale_manual]{ggplot2::scale_colour_manual}}.
 #' @return Een ggplot2 colour-scale.
 #' @export
 #' @rdname scale_fill_HSL
 scale_colour_HSL <- function(palette = "main", direction = 1, ...) { ... }
 
 scale_colour_HSL <- function(palette = "main", direction = 1, ...) {
-  
+
   ggplot2::discrete_scale(
     "colour", "HSL",
     palette_gen(palette, direction),
