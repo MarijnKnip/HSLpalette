@@ -1,0 +1,10 @@
+Package: HSLpalette
+Title: HSL Huisstijl Paletten voor ggplot2
+Version: 0.1.0
+Authors@R: person("Marijn", "Knip", email = "marijnknip@gmail.com", role = c("aut", "cre"))
+Description: Kleurenpaletten en ggplot2 scales in de HSL-huisstijl.
+License: MIT + file LICENSE
+Imports:
+    ggplot2 (>= 3.4.0)
+Encoding: UTF-8
+Config/roxygen2/version: 8.1.1
